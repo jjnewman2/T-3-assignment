@@ -15,7 +15,7 @@ namespace T_3_assignment
           int cad_value;
             while (true)
             {
-                Console.WriteLine("Enter increment value between 5 and 25:");
+                Console.WriteLine("Enter increment value between 5 and  25:");
                 cad_value = Convert.ToInt32(Console.ReadLine());
                 if (cad_value >= 5 && cad_value <= 25)
                 {
